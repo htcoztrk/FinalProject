@@ -25,6 +25,29 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccess.dll": {}
+        }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
       }
     }
   },
@@ -169,10 +192,22 @@
         "build/netstandard2.0/ref/netstandard.xml",
         "lib/netstandard1.0/_._"
       ]
+    },
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess/DataAccess.csproj",
+      "msbuildProject": "../DataAccess/DataAccess.csproj"
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "DataAccess >= 1.0.0",
+      "Entities >= 1.0.0",
       "NETStandard.Library >= 2.0.1"
     ]
   },
@@ -184,11 +219,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hp\\source\\repos\\FinalSolution\\Business\\Business.csproj",
+      "projectUniqueName": "C:\\Users\\Hp\\source\\repos\\FinalProject\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "C:\\Users\\Hp\\source\\repos\\FinalSolution\\Business\\Business.csproj",
+      "projectPath": "C:\\Users\\Hp\\source\\repos\\FinalProject\\Business\\Business.csproj",
       "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hp\\source\\repos\\FinalSolution\\Business\\obj\\",
+      "outputPath": "C:\\Users\\Hp\\source\\repos\\FinalProject\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -208,7 +243,14 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Hp\\source\\repos\\FinalProject\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Hp\\source\\repos\\FinalProject\\DataAccess\\DataAccess.csproj"
+            },
+            "C:\\Users\\Hp\\source\\repos\\FinalProject\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Hp\\source\\repos\\FinalProject\\Entities\\Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
