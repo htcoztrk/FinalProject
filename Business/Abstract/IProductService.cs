@@ -8,5 +8,8 @@ namespace Business.Abstract
     public interface IProductService
     {
         List<Product> GetAll();
+        List<Product> GelAllByCategoryId(int id);
+        List<Product> GelByUnitPrice(decimal min,decimal max);
+
     }
 }
