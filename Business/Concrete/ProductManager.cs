@@ -1,4 +1,6 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
@@ -36,6 +38,23 @@ namespace Business.Concrete
         {
             //iş kodları
             return _productDal.GetAll();
+        }
+
+        public IResult Add(Product product)
+        {
+            //business codes
+            if (product.ProductName.Length < 2)
+            {
+                return new ErrorResult(Messages.ProductAdded);
+            }
+            _productDal.Add(product);
+
+            return new SuccessResult("Product added.");
+        }
+
+        public Product GetById(int productId)
+        {
+            return _productDal.Get(p => p.ProductId == productId);
         }
     }
 }
