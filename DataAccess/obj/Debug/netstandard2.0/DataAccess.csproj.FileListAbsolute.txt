@@ -12,3 +12,17 @@ C:\Users\Hp\source\repos\FinalProject\DataAccess\obj\Debug\netstandard2.0\DataAc
 C:\Users\Hp\source\repos\FinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
 C:\Users\Hp\source\repos\FinalProject\DataAccess\bin\Debug\netstandard2.0\Core.dll
 C:\Users\Hp\source\repos\FinalProject\DataAccess\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\Hp\Desktop\FinalProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.deps.json
+C:\Users\Hp\Desktop\FinalProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.dll
+C:\Users\Hp\Desktop\FinalProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\Hp\Desktop\FinalProject\DataAccess\bin\Debug\netstandard2.0\Core.dll
+C:\Users\Hp\Desktop\FinalProject\DataAccess\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\Hp\Desktop\FinalProject\DataAccess\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\Hp\Desktop\FinalProject\DataAccess\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\Hp\Desktop\FinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
+C:\Users\Hp\Desktop\FinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Hp\Desktop\FinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+C:\Users\Hp\Desktop\FinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Hp\Desktop\FinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
+C:\Users\Hp\Desktop\FinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
+C:\Users\Hp\Desktop\FinalProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
