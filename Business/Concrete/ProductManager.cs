@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Business.BusinessAspects.Autofac;
 using Business.CCS;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
@@ -58,7 +59,8 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Product>>( _productDal.GetAll(),Messages.ProductsListed);
         }
 
-        [ValidationAspect(typeof(ProductValidator))]
+        [SecuredOperation("product.add")]
+        [ValidationAspect(typeof(ProductValidator))]    
         public IResult Add(Product product)
         {
             //aynı isimde ürün eklenemez.
