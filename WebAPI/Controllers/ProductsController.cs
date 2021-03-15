@@ -8,6 +8,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DataAccess.Concrete.EntityFramework;
+using System.Threading;
+
 namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
@@ -29,6 +31,7 @@ namespace WebAPI.Controllers
         {
             //swagger
             //dependency chain
+            Thread.Sleep(millisecondsTimeout:5000);
             var result = _productService.GetAll();
             if (result.Success)
             {
